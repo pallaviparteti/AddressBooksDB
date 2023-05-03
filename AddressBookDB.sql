@@ -18,3 +18,4 @@ values('Pallavi','Parteti','Malkapur','Amravati','Maharashtra',444602,2298677,'p
 ('Kabir','Khan','sadar','Banglore','Karnataka',4578677,8765476,'asdcvb7654@gmail.com');
 select * from addressbook;
 update addressbook set state ='WestBengol' where firstName ='Kabir';
+delete from addressbook where firstName='Kabir';
