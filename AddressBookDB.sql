@@ -17,11 +17,15 @@ values('Pallavi','Parteti','Malkapur','Amravati','Maharashtra',444602,2298677,'p
 ('Samiksha','Dhabale','tiwasa','Lucknow','UP',234562,1234567,'same987@gmail.com'),
 ('Kabir','Khan','sadar','Banglore','Karnataka',4578677,8765476,'asdcvb7654@gmail.com');
 select * from addressbook;
----------------------------------- UC4 ------------------------------------
+--------------------------- UC4 --------------------------------------------------------------------------
 update addressbook set state ='WestBengol' where firstName ='Kabir';
 
------------------------------------ UC5 ---------------------------------------------------
+---------------------------- UC5 ------------------------------------------------------------------------
 delete from addressbook where firstName='Kabir';
------------------------------ UC6 --------------------------------------------------------=
+---------------------------- UC6 ---------------------------------------------------------------------------------
 select * from addressbook Where city = 'Amravati';
 select * from addressbook Where  state = 'Maharashtra';
+--------------------------------------- UC7 ----------------------------------------------------------------------
+select count(*) from addressbook Where city = 'Amravati';
+
+select count(*) from addressbook Where  state = 'Bhopal';
