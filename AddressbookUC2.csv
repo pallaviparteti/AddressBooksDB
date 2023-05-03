@@ -1,9 +1,0 @@
-Field,Type,Null,Key,Default,Extra
-firstName,varchar(25),YES,,NULL,
-lastName,varchar(25),YES,,NULL,
-address,varchar(255),YES,,NULL,
-city,varchar(25),YES,,NULL,
-state,varchar(25),YES,,NULL,
-zip,int,YES,,NULL,
-phoneNumber,int,YES,,NULL,
-email,varchar(255),YES,,NULL,
