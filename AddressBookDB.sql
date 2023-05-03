@@ -21,11 +21,20 @@ select * from addressbook;
 update addressbook set state ='WestBengol' where firstName ='Kabir';
 
 ---------------------------- UC5 ------------------------------------------------------------------------
+
 delete from addressbook where firstName='Kabir';
+
 ---------------------------- UC6 ---------------------------------------------------------------------------------
+
 select * from addressbook Where city = 'Amravati';
 select * from addressbook Where  state = 'Maharashtra';
+
 --------------------------------------- UC7 ----------------------------------------------------------------------
+
 select count(*) from addressbook Where city = 'Amravati';
 
 select count(*) from addressbook Where  state = 'Bhopal';
+
+---------------------------- UC8 ------------------------------------------------------------------------------------
+
+select * from addressbook where firstName like 's%';
