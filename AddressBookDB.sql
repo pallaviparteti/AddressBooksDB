@@ -38,3 +38,13 @@ select count(*) from addressbook Where  state = 'Bhopal';
 ---------------------------- UC8 ------------------------------------------------------------------------------------
 
 select * from addressbook where firstName like 's%';
+
+--------------------------- UC9 ---------------------------------------------------------------------------------
+
+alter table addressbook add Type varchar(55);
+
+update addressbook set type = 'friends' where FirstName = 'Akash';
+
+update addressbook set type = 'friends' where FirstName = 'Samiksha';
+select count(*) from addressbook where type = 'friends';
+
